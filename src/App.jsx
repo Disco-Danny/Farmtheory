@@ -27,16 +27,17 @@ function App() {
   return (
     <>
       <div className="dark:bg-slate-900 dark:text-white">
-        <div className="fixed left-0 right-0 top-0 z-50 bg-gradient-to-l from-violet-900 via-violet-800 to-violet-900 ">
+        <div className="fixed left-0 right-0 top-0 z-50 bg-gradient-to-l from-green-900 via-green-800 to-green-900 ">
           {/* <Navbar /> */}
           <Navbar2 />
         </div>
         <Hero />
         <Service />
         <BannerDetails reverse={true} img={Banner1} />
-        <BannerDetails img={Banner2} />
-        <Banner />
+        {/* <BannerDetails img={Banner2} /> */}
         <Blogs />
+        <Banner />
+        
         {/* <Swipe /> */}
         <Footer />
       </div>

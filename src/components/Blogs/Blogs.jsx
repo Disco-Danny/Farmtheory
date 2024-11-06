@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import Img1 from "../../assets/blog1.jpg";
-import Img2 from "../../assets/blog2.jpg";
-import Img3 from "../../assets/blog3.jpg";
+import Img1 from "../../assets/zuccini.jpg";
+import Img2 from "../../assets/Coriander Hybrid.jpg";
+import Img3 from "../../assets/potatoes.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -10,7 +10,7 @@ const Blogs = () => {
     <main data-aos="fade-up" data-aos-offset="200">
       <section className="container mb-10 py-8">
         <h1 className="mb-8 border-l-8 py-2 pl-2 text-center text-3xl font-bold">
-          Our Latest Blogs
+          Choose from the Healthiest Produce
         </h1>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3">
           <div
@@ -25,16 +25,16 @@ const Blogs = () => {
               />
             </div>
             <div className="flex justify-between pt-2 text-slate-600">
-              <p>April 24, 2022</p>
-              <p className="line-clamp-1"> By Dilshad</p>
+              <p>Sourced locally</p>
+              <p className="line-clamp-1"> By Farmtheory</p>
             </div>
             <div className="space-y-3 py-3">
               <h1 className="line-clamp-1 text-xl font-bold">
-                How to grow your business. How to grow your business.
+                Zucchini
               </h1>
               <p className="line-clamp-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. amet
-                consectetur adipisicing elit.
+                Weight: 500gm <br />
+                Amount: __/Kg
               </p>
             </div>
           </div>
@@ -50,16 +50,16 @@ const Blogs = () => {
               />
             </div>
             <div className="flex justify-between pt-2 text-slate-600">
-              <p>Jan 3, 2023</p>
-              <p className="line-clamp-1"> By Akshay</p>
+              <p>Sourced Locally</p>
+              <p className="line-clamp-1"> By Farmtheory</p>
             </div>
             <div className="space-y-3 py-3">
               <h1 className="line-clamp-1 text-xl font-bold">
-                How to grow your business. How to grow your business.
+                Coriander
               </h1>
               <p className="line-clamp-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. amet
-                consectetur adipisicing elit.
+              Weight: 50gm <br />
+              Amount: __/100gm
               </p>
             </div>
           </div>
@@ -75,16 +75,16 @@ const Blogs = () => {
               />
             </div>
             <div className="flex justify-between pt-2 text-slate-600">
-              <p>April 24, 2024</p>
-              <p className="line-clamp-1"> By Satya</p>
+              <p>Sourced Locally</p>
+              <p className="line-clamp-1"> By Farmtheory</p>
             </div>
             <div className="space-y-3 py-3">
               <h1 className="line-clamp-1 text-xl font-bold">
-                How to grow your business. How to grow your business.
+                Potatoes
               </h1>
               <p className="line-clamp-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. amet
-                consectetur adipisicing elit.
+              Weight: 1kg <br />
+              Amount: __/kg
               </p>
             </div>
           </div>

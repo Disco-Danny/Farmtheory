@@ -62,9 +62,9 @@ const Navbar = () => {
       <nav className="container  flex h-[70px] items-center justify-between py-2 ">
         <div className="text-2xl text-white md:text-3xl ">
           <a href="/#home" className="">
-            COZ
+            Farm
             <span className="inline-block font-bold text-primary dark:text-black">
-              WEB
+              theory
             </span>
           </a>
         </div>
